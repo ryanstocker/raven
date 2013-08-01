@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Raven::Application.config.secret_key_base = '5d73f8a20fc0744124bdec6aeb7de8d835dc2e78f43726085147ee482ae9add35312872d4145affbb76b21aa6e9e9201b1970b5250d53e9a50d0edfabed220fb'
+RavenApp::Application.config.secret_key_base = '5d73f8a20fc0744124bdec6aeb7de8d835dc2e78f43726085147ee482ae9add35312872d4145affbb76b21aa6e9e9201b1970b5250d53e9a50d0edfabed220fb'

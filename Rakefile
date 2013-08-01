@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Raven::Application.load_tasks
+RavenApp::Application.load_tasks
