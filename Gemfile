@@ -9,6 +9,7 @@ gem 'strongbox'
 gem 'haml-rails'
 gem 'compass-rails'
 gem 'zurb-foundation', '~> 4.0.0'
+gem 'simple_form'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
