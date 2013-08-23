@@ -1,0 +1,7 @@
+%h2 Messages
+%ul
+  - @messages.each do |m|
+    %li
+      = link_to m.title.decrypt(SECURE_SETTINGS['passphrase']), message_path(m)
+      (sent to #{m.recipients.map(&:email).join(', ')})
+=link_to 'New Message', new_message_path
